@@ -1,0 +1,59 @@
+/* Body and Typography */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #484848;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***** TESTING PURPOSES ONLY *****/
+* {
+  border: 1px solid red !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.logo {
+  float: left;
+}
+
+.name-title {
+  float: right;
+}
+
+.name {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  color: #484848;
+  position: relative;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  color: grey;
+  z-index: -1;
+}
+
+/* Navigation */
+
+.nav-bar {
+  display: inline-block;
+}
+
+.nav {
+  display: inline;
+  float: right;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
