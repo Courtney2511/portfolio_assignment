@@ -9,6 +9,13 @@ img {
   max-width: 100%;
 }
 
+.section {
+  font-size: 2em;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /***** TESTING PURPOSES ONLY *****/
 * {
   border: 1px solid red !important;
@@ -55,5 +62,25 @@ img {
   display: inline;
   float: right;
   text-transform: uppercase;
-  margin-right: 10px;
+  margin-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* About Me */
+
+.about-me {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 140%;
+}
+
+/* Portfolio */
+
+h4 {
+  text-align: center;
+}
+
+.project {
+  padding: 10px;
 }
