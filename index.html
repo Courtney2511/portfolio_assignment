@@ -1,102 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio | Courtney Noonan | Full Stack Web Developer</title>
 
-  <!-- External Links and Scripts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Courtney Noonan | Full Stack Web Developer</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap and requirements -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<div class="grid">
-<header>
-    <div class="row">
-      <div class="col-6 logo">
-          <p>LOGO</p>
-      </div>
-        <div class="col-6 name-title">
-            <h1 class="name">Courtney Noonan</h1>
-            <h3 class="title">Full Stack Web Developer</h3>
-        </div>
-    </div>
-</header>
+    <div class="grid">
+        <header>
+            <div class="row">
+                <div class="col-6 logo">
+                    <p>LOGO</p>
+                </div>
+                <div class="col-6 name-title">
+                    <h1 class="name">Courtney Noonan</h1>
+                    <h3 class="title">Full Stack Web Developer</h3>
+                </div>
+            </div>
+        </header>
 
-  <nav>
-    <ul class="row nav-bar">
-      <li class="nav">Home</li>
-      <li class="nav">About</li>
-      <li class="nav">Portfolio</li>
-      <li class="nav">Contact</li>
-    </ul>
-  </nav>
+        <nav>
+            <ul class="row nav-bar">
+                <li class="nav">Home</li>
+                <li class="nav">About</li>
+                <li class="nav">Portfolio</li>
+                <li class="nav">Contact</li>
+            </ul>
+        </nav>
 
-  <section class="banner">
-    <img src="http://placehold.it/1400x300" alt="">
-  </section>
+        <!-- Banner -->
+        <section class="banner">
+            <img src="http://placehold.it/1400x300" alt="">
+        </section>
 
-  <section class="about-me">
-    <div class="row">
-      <h3 class="section">about</h3>
-      <p class="about-me">
-        Lorizzle ipsum dolizzle sit amizzle, cool adipiscing for sure. Nullizzle sapien fo shizzle, gizzle volutpizzle, suscipizzle my shizz, crunk vizzle, shizzle my nizzle crocodizzle. Pellentesque fo tortizzle. Sed erizzle. Fizzle at dolizzle fo shizzle get down get down tempizzle tempor. Funky fresh my shizz nibh et turpizzle. Fo shizzle mah nizzle fo rizzle, mah home g-dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Pellentesque shiz fo shizzle my nizzle gangsta. Brizzle hac sure platea dictumst. Fo shizzle mah nizzle. Curabitizzle tellus pimpin', pretizzle shit, mattizzle ac, eleifend vitae, nunc. Doggy suscipizzle. Integizzle sempizzle shizznit sizzle sheezy.
-      </p>
-    </div>
-  </section>
-  <section class="portfolio">
-    <div class=row>
-      <h3 class="section">portfolio</h3>
-    </div>
-    <div class="row">
-      <div class="col-4 project">
-        <picture>
-          <img src="http://placehold.it/400x300" alt="">
-        </picture>
-        <h4>SeatYourself</h4>
-      </div>
-      <div class="col-4 project">
-        <picture>
-          <img src="http://placehold.it/400x300" alt="">
-        </picture>
-        <h4>Crowdfunder</h4>
-      </div>
-      <div class="col-4 project">
-        <img src="http://placehold.it/400x300" alt="">
-        <h4>State of Our Mind</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 project">
-        <img src="http://placehold.it/400x300" alt="">
-        <h4>Movie Database</h4>
-      </div>
-      <div class="col-4 project">
-        <img src="http://placehold.it/400x300" alt="">
-        <h4>COMING SOON</h4>
-      </div>
-      <div class="col-4 project">
-        <img src="http://placehold.it/400x300" alt="">
-        <h4>COMING SOON</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p>Check out some more of my work on github</p>
-      </div>
-    </div>
-  </section>
 
-  <section class="contact">
-    <div class="row">
-      <h3 class="section">contact</h3>
+        <!-- About Me -->
+        <section class="about-me">
+            <div class="row">
+                <h3 class="section">about</h3>
+                <p class="about-me">
+                    Lorizzle ipsum dolizzle sit amizzle, cool adipiscing for sure. Nullizzle sapien fo shizzle, gizzle volutpizzle, suscipizzle my shizz, crunk vizzle, shizzle my nizzle crocodizzle. Pellentesque fo tortizzle. Sed erizzle. Fizzle at dolizzle fo shizzle get
+                    down get down tempizzle tempor. Funky fresh my shizz nibh et turpizzle. Fo shizzle mah nizzle fo rizzle, mah home g-dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Pellentesque shiz fo shizzle my nizzle gangsta.
+                    Brizzle hac sure platea dictumst. Fo shizzle mah nizzle. Curabitizzle tellus pimpin', pretizzle shit, mattizzle ac, eleifend vitae, nunc. Doggy suscipizzle. Integizzle sempizzle shizznit sizzle sheezy.
+                </p>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio">
+            <div class=row>
+                <h3 class="section">portfolio</h3>
+            </div>
+            <div class="row">
+                <!--Project 1-->
+                <div class="col-4 project">
+                    <picture>
+                        <img src="http://placehold.it/400x300" data-toggle="modal" data-target="#project1" alt="">
+                    </picture>
+                    <h4>SeatYourself</h4>
+                    <div class="modal" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">SeatYourself</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>SeatYourself is an OpenTable style restaurant reservation site.  The project was built with Ruby on Rails, using Bootsrap for layout.  Gems and APIS just in the project: blah blah blah blah</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2-->
+                <div class="col-4 project">
+                    <picture>
+                        <img src="http://placehold.it/400x300" alt="">
+                    </picture>
+                    <h4>Crowdfunder</h4>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-4 project">
+                    <img src="http://placehold.it/400x300" alt="">
+                    <h4>State of Our Mind</h4>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Project 4 -->
+                <div class="col-4 project">
+                    <img src="http://placehold.it/400x300" alt="">
+                    <h4>Movie Database</h4>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-4 project">
+                    <img src="http://placehold.it/400x300" alt="">
+                    <h4>COMING SOON</h4>
+                </div>
+                <!-- Project 6 -->
+                <div class="col-4 project">
+                    <img src="http://placehold.it/400x300" alt="">
+                    <h4>COMING SOON</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>Check out some more of my work on github</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="row">
+                <h3 class="section">contact</h3>
+
+            </div>
+        </section>
 
     </div>
-  </section>
 
-</div>
+
 </body>
+
 </html>
