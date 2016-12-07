@@ -43,6 +43,7 @@ img {
   font-size: 3em;
   color: #484848;
   position: relative;
+  margin: 0;
 }
 
 .title {
@@ -69,7 +70,7 @@ img {
 
 /* About Me */
 
-.about-me {
+#about-me {
   padding-left: 40px;
   padding-right: 40px;
   line-height: 140%;
