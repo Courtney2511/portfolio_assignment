@@ -60,7 +60,6 @@ img {
 }
 
 .nav {
-  display: inline;
   float: right;
   text-transform: uppercase;
   margin-right: 15px;
@@ -84,4 +83,5 @@ h4 {
 
 .project {
   padding: 10px;
+  text-align: center;
 }
