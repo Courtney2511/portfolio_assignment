@@ -17,7 +17,7 @@ img {
 }
 
 /***** TESTING PURPOSES ONLY *****/
-* {
+/** {
   border: 1px solid red !important;
 }
 
@@ -26,12 +26,18 @@ img {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 /* Header */
 
 .logo {
   float: left;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 .name-title {
@@ -81,7 +87,38 @@ h4 {
   text-align: center;
 }
 
+.project-row {
+  flex-wrap: wrap;
+}
+
 .project {
   padding: 10px;
   text-align: center;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 750px) {
+  .logo {
+    display: none;
+  }
+
+  .name-title {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 751px) {
+  .section {
+    font-size: 2.5em;
+    padding: 30px;
+  }
+
+  h4 {
+    font-size: 1.5em;
+    padding: 10px;
+  }
 }
