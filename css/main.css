@@ -10,13 +10,16 @@ img {
 }
 
 .section {
+  font-family: 'Roboto', serif;
   font-size: 2em;
+  color: #44797f;
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 /***** TESTING PURPOSES ONLY *****/
+
 /** {
   border: 1px solid red !important;
 }
@@ -26,9 +29,13 @@ img {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}*/
+} */
 
 /* Header */
+
+.header {
+  margin-top: 20px;
+}
 
 .logo {
   float: left;
@@ -42,12 +49,15 @@ img {
 
 .name-title {
   float: right;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .name {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 3em;
-  color: #484848;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.5em;
+  line-height: 100%;
+  color: #5c3759;
   position: relative;
   margin: 0;
 }
@@ -75,15 +85,22 @@ img {
 
 /* About Me */
 
-#about-me {
-  padding-left: 40px;
-  padding-right: 40px;
+.about-me {
+  font-size: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
   line-height: 140%;
+  padding-bottom: 60px;
 }
 
 /* Portfolio */
 
+#portfolio {
+  background-color: #ccc85e;
+}
+
 h4 {
+  color: #424525;
   text-align: center;
 }
 
@@ -92,10 +109,24 @@ h4 {
 }
 
 .project {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   width: 33.33%;
 }
+
+/* Contact */
+
+.social {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.fa {
+  margin: 20px;
+  color: #5148cc;
+}
+
+/* Media Queries */
 
 @media screen and (max-width: 750px) {
   .logo {
