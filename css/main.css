@@ -1,5 +1,9 @@
 /* Body and Typography */
 
+* {
+  border: 1px solid red !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: grey;
@@ -36,10 +40,8 @@ a:hover {
   float: left;
 }
 
-.circle {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
+#c-logo {
+  padding-left: 20px;
 }
 
 .name-title {
@@ -129,13 +131,23 @@ h4 {
 
 /**** Media Queries ****/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 350px) {
+  .name {
+    font-size: 2em;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .logo {
-    display: none;
+    width: 25%;
   }
 
   .name-title {
-    width: 100%;
+    width: 75%;
   }
 
   .project {
@@ -143,7 +155,7 @@ h4 {
   }
 }
 
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 551px) {
   .section {
     font-size: 2.5em;
     padding: 30px;
