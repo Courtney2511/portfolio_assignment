@@ -1,16 +1,24 @@
 /* Body and Typography */
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #484848;
+  font-family: "Roboto", sans-serif;
+  color: grey;
 }
 
 img {
   max-width: 100%;
 }
 
+section {
+  margin-top: 40px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .section {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-size: 2em;
   color: #44797f;
   margin: auto;
@@ -18,23 +26,10 @@ img {
   padding-bottom: 15px;
 }
 
-/***** TESTING PURPOSES ONLY *****/
-
-/** {
-  border: 1px solid red !important;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-
 /* Header */
 
 .header {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .logo {
@@ -54,19 +49,19 @@ img {
 }
 
 .name {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-size: 3.5em;
   line-height: 100%;
   color: #5c3759;
   position: relative;
   margin: 0;
+  z-index: -1;
 }
 
 .title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   color: grey;
-  z-index: -1;
 }
 
 /* Navigation */
@@ -95,13 +90,11 @@ img {
 
 /* Portfolio */
 
-#portfolio {
-  background-color: #ccc85e;
-}
-
 h4 {
+  font-size: 1.5em;
   color: #424525;
   text-align: center;
+  padding: 10px;
 }
 
 .project-row {
@@ -114,6 +107,14 @@ h4 {
   width: 33.33%;
 }
 
+.modal-header {
+  background-color: #424525;
+}
+
+.modal-title {
+  color: white;
+}
+
 /* Contact */
 
 .social {
@@ -123,10 +124,10 @@ h4 {
 
 .fa {
   margin: 20px;
-  color: #5148cc;
+  color: #5c3759;
 }
 
-/* Media Queries */
+/**** Media Queries ****/
 
 @media screen and (max-width: 750px) {
   .logo {
@@ -146,10 +147,5 @@ h4 {
   .section {
     font-size: 2.5em;
     padding: 30px;
-  }
-
-  h4 {
-    font-size: 1.5em;
-    padding: 10px;
   }
 }
